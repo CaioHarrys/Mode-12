@@ -92,3 +92,40 @@ body{
     transform: scale(1.1);
     transition: 0.2s ease-in;
 }
+/*SEGUNDA SEÇÃO*/
+.section-2{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.sec-child-3{
+    display: flex;
+    flex-direction: column;
+}
+#maxim{
+    color: var(--color-one);
+    font-family: var(--font--two);
+    font-size: 28px;
+    width: 50%;
+}
+.sec-child-4{
+    display: flex;
+    flex-direction: row;
+}
+.sec-child-img>img{
+    width: 250px;
+}
+#paras{
+    width: 50%;
+    color: var(--color-three);
+    font-family: var(--font--three);
+    font-size: 10px;
+    font-weight: 300;
+}
+#Bigst{
+    color: var(--color-one);
+    font-family: var(--font--one);
+    font-size: 4rem;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
