@@ -90,9 +90,11 @@ button{
 .vertical-links{
     display: flex;
     flex-direction: column;
-    position: fixed;
-    left: 10px;
-    bottom:375px;
+    margin-left: 10px;
+}
+.initial-2{
+    display: flex;
+    flex-direction: row;
 }
 .vert-ico{
     width: 25px;
@@ -569,9 +571,28 @@ button{
 /*COMMON SCREEN SIZE*/
 @media (max-width: 1024px){}
 /*MEDIUM SCREEN SIZE*/
-@media (max-width: 900px){}
+@media screen and (max-width: 900px){
+    .blue-block {
+        position: absolute;
+        width: 75%;
+        display: flex;
+        align-self: center;
+        background-color: #3a3ae5;
+        border-radius: 10px;
+        height: 55%;
+    }
+}
 /*MOBILE*/
 @media screen and (max-width: 600px){
+    .blue-block {
+        position: absolute;
+        width: 40%;
+        display: flex;
+        align-self: center;
+        background-color: #3a3ae5;
+        border-radius: 10px;
+        height: 85%;
+    }
     /*FIRST SECTION*/
     #mid-text{
         width: 75%;
