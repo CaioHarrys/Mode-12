@@ -55,15 +55,12 @@ button{
     display: flex;
     justify-content: center;
 }
-.li-nav{
-    width: 100%;
+.list{
+    margin-right: 20px;
+    color: #f2f2f2;
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    font-family: var(--font--two);
-    font-size: medium;
-    color: #262626;
-    text-decoration: none;
-    padding: 20px;
+    gap: 25px;
 }
 .aa{
     margin: 20px;
@@ -96,6 +93,24 @@ button{
     right: auto;
     width: 100%;
   }
+  #toggler,
+.navbar label{
+    display: none;
+}
+.hamburguerr{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: alll 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
 /*PRIMEIRA SECTION*/
 .section-1{
     background: linear-gradient(#3a3ae5 79%,white 15%);
@@ -653,6 +668,33 @@ button{
 /*MOBILE*/
 @media screen and (max-width: 600px){
     /*NAVBAR*/
+    .hamburguerr{
+        display: block;
+        margin-right: 25px;
+    }
+    .hamburguerr.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguerr.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg); 
+    }
+    .hamburguerr.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .list{
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        transition: 0.3s;
+    }
+    .list.active{
+        left: 0;
+        background-color: #3a3ae5;
+    }
     #underline {
         text-decoration: none;
         color: white;
