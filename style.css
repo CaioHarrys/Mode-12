@@ -28,6 +28,74 @@ body{
 button{
     background-color: transparent;
 }
+/*NAVBAR*/
+.nav{
+    display: flex;
+    width: 100%;
+    background-color:#3a3ae5 ;
+    padding-top: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+}
+.logo>img{
+    width:35px;
+    height: 35px;
+}
+.ul-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.li-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font--two);
+    font-size: medium;
+    color: #262626;
+    text-decoration: none;
+    padding: 20px;
+}
+.aa{
+    margin: 20px;
+}
+#underline {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+#underline:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 0;
+    bottom: -5px;
+    background:#f7f7f7;
+    height: 3.5px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    border-radius: 10px;
+  }
+  #underline:hover:after,
+  #underline:focus:after,
+  #underline:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 /*PRIMEIRA SECTION*/
 .section-1{
     background: linear-gradient(#3a3ae5 79%,white 15%);
@@ -584,6 +652,36 @@ button{
 }
 /*MOBILE*/
 @media screen and (max-width: 600px){
+    /*NAVBAR*/
+    #underline {
+        text-decoration: none;
+        color: white;
+        display: inline;
+        position: relative;
+        overflow: hidden;
+      }
+    #underline:after {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        width: 0;
+        bottom: -5px;
+        background:#f7f7f7;
+        height: 3.5px;
+        transition-property: width;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+        border-radius: 10px;
+      }
+      #underline:hover:after,
+      #underline:focus:after,
+      #underline:active:after {
+        left: 0;
+        right: auto;
+        width: 100%;
+      }
+    /*end*/
     .blue-block {
         position: absolute;
         width: 40%;
