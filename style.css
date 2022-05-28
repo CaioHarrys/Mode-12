@@ -596,6 +596,7 @@ button{
     overflow: hidden;
     transition: all 1s;
 }
+/*SECTION-6*/
 .section-6{
     display: flex;
     width: 100%;
@@ -649,6 +650,198 @@ button{
     width: 75%;
     display: flex;
     height: auto;
+}
+/*SECTION-7*/
+.section-7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.blck-7ini{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.block-7{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 17px;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 20px;
+}
+.bl-cnt-img{
+    display: flex;
+    justify-content: center;
+}
+.bl-cnt-img>img{
+    width: 64px;
+}
+.bl-cnt-txt{
+    width: 100%;
+    font-family: var(--font--two);
+    font-size: 1em;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.form-block{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 10em;
+}
+.form-bord{
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid;
+    box-shadow: 0px 1px 10px 2px rgb(116, 115, 115);
+}
+.form-text{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.form-text-main{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.form-text-main>p{
+    color: black;
+    font-family: var(--font--three);
+    width: 50%;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 2em;
+}
+.form-right{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.fm-rght-blck{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.fm-rght-blck-mssg{
+    width: 85%;
+}
+.fm-rght-blck-mssg>textarea{
+    border: 0px solid;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    background-color: #bebebe2b;
+    padding: 10px;
+}
+.form-left{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.fm-lft-blck{
+    width: 100%;
+    display: flex;
+}
+.fm-lft-blck-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fm-lft-blck-field>input{
+    color: rgba(54, 54, 54, 0.5);
+    font-family: var(--font-family);
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    background-color: #bebebe2b;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 5px;
+    transition: border 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.fm-lft-blck-field>input:hover{
+    border: 2px solid #3a3ae5;
+    background-color: transparent;
+}
+.form-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.main-serv{
+    color: black;
+    font-family: var(--font--three);
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boxes-tp{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    background-color: #bebebe2b;
+    border-radius: 7px;
+    transition: border 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.boxes-tp:hover{
+    border: 2px solid #3a3ae5;
+    background-color: transparent;
+}
+.boxes-id{
+    color: black;
+    font-family: var(--font--three);
+    font-size: 18px;
+    text-align: center;
 }
 /*RESPONSIVIDADE*/
 /*COMMON SCREEN SIZE*/
