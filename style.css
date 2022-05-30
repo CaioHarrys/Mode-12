@@ -705,6 +705,7 @@ button{
     font-weight: 400;
     display: flex;
     justify-content: center;
+    padding: 10px 0px 10px 0px;
 }
 .form-block{
     width: 80%;
@@ -886,9 +887,81 @@ input[type="checkbox"]:checked + label {
 }
 button>p{
     font-family: var(--font--two);
-    color: var(--color-one);
     font-size: 18px;
     font-weight: 400;
+}
+#button-color{
+    color: var(--color-one);
+}
+/*FOOTER*/
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #3a3ae5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foot-item{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+.foot-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foot-img>img{
+    width: 65px;
+    margin: 10px 0px 10px 0px;
+}
+.foot-text{
+    width: 85%;
+    display: flex;
+    align-self: center;
+    font-family: var(--font--two);
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--color-one);
+}
+.foot-main{
+    width: 95%;
+    display: flex;
+    align-self: center;
+    font-family: var(--font--one);
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--color-one);
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+.foot-links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-evenly;
+    margin: 20px 0px 0px 0px;
+}
+.foot-links-img{
+    width: 65px;
+}
+.foot-links-img>a{
+    width: 35px;
+}
+.foot-main-text{
+    width: 85%;
+    display: flex;
+    align-self: center;
+    font-family: var(--font--two);
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--color-one);
+}
+#centered{
+    align-self: baseline;
 }
 /*RESPONSIVIDADE*/
 /*COMMON SCREEN SIZE*/
@@ -1111,5 +1184,31 @@ button>p{
 }
 .app-down{
     width: 100%;
+}
+/*FORMULARIO*/
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+.foot{
+    flex-direction: column;
+    align-self: center;
+}
+.foot-item{
+    width: 95%;
+    margin: 10px 20px;
+    padding: 20px 10px;
+}
+.foot-main{
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    font-size: 28px;
+}
+.foot-links-img>img{
+    width: 35px;
 }
 }
