@@ -22,6 +22,15 @@
     --color-five:#84BF04;
 
 }
+::-webkit-scrollbar {
+    width: 0px;
+  }
+::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
 body{
     background-color: white;
 }
@@ -1167,10 +1176,11 @@ button>p{
     text-align: left;
 }
 .blocks-sec-3{
-    width: 75%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .bl-1{
     width: 43%;
@@ -1200,6 +1210,63 @@ button>p{
     line-height: normal;
     text-align:left ;
 
+}
+.block-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 17px;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 0px;
+}
+.block-7 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bl-cnt-txt {
+    width: 100%;
+    font-family: var(--font--two);
+    font-size: 0.9em;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px 10px 5px;
+}
+.form-block{
+    width: 95%;
+}
+input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 5px 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: #bebebe2b;
+    border-radius: 7px;
+    color: black;
+    margin: 5px 5px;
+}
+.apps-button-apple {
+    margin: 0px 5px;
+}
+.apps-button-android {
+    margin: 0px 5px;
+}
+.apps-button{
+    margin-bottom: 50px;
+}
+.vertical-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    position: absolute;
+    top: 200px;
 }
 /*SIXTH SECTION*/
 .lat-phone>img{
